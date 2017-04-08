@@ -1,10 +1,40 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>This is a test</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <!--Links for bootstrap4-->
+            <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+        <!--link for google icons-->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <title>Go Free</title>
     </head>
     
     <body>
-        <h1>Hello World!</h1>
+        <div class="container-fluid">
+            <div class="navbar fixed-top bg-primary">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-left align-middle">The Company leading you to a healthy life!</p> 
+                    </div>
+                    <div>
+                        <i class="material-icons align-middle">&#xe55f;</i>
+                    </div>
+                    <div>
+                        <p class="align-middle">41-60 Main Street, Suite 309B, Flushing, NY</p>  
+                    </div>  
+                    <div class="col-1">
+                        <i class="material-icons">&#xe551;</i>
+                    </div>
+                </div>
+            </div>
+        </div>    
     </body>
 </html>
