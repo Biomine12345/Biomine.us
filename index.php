@@ -18,23 +18,21 @@
     </head>
     
     <body>
-        <div class="container-fluid">
-            <div class="navbar fixed-top bg-primary">
-                <div class="row">
-                    <div class="col-6">
-                        <p class="text-left align-middle">The Company leading you to a healthy life!</p> 
-                    </div>
-                    <div>
-                        <i class="material-icons align-middle">&#xe55f;</i>
-                    </div>
-                    <div>
-                        <p class="align-middle">41-60 Main Street, Suite 309B, Flushing, NY</p>  
-                    </div>  
-                    <div class="col-1">
-                        <i class="material-icons">&#xe551;</i>
+            <nav class="navbar fixed-top bg-primary" style="color: white; height: 45px; font-size:15px;">
+                <div class="container">
+                    <div class="row">
+                        <p class="col-md">The Company leading you to a healthy life!</p> 
+                        <div>
+                            <i class="material-icons align-bottom">&#xe55f;</i>41-60 Main Street, Suite 309B, Flushing, NY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+                        <div>
+                            <i class="material-icons align-bottom">&#xe551;</i>(718) 353-8801&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+                        <div>
+                            <i class="material-icons align-bottom">&#xe0be;</i>info@biomine.us
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>    
+            </nav>   
     </body>
 </html>
