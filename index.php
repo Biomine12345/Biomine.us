@@ -78,15 +78,15 @@
               <div class="carousel-item active">
                 <img class="d-block img-fluid" src="img/8products.png" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                  <h3>First slide label</h3>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  <h3></h3>
+                  <p></p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img class="d-block img-fluid" src="img/jumbo.png" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
-                  <h3>Second slide label</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <h3></h3>
+                  <p></p>
                 </div>
               </div>
             </div>
@@ -100,5 +100,37 @@
             </a>
           </div>
         </div>
+        <!--End of Carousel-->
+        
+        <main>
+            <div class="container">
+                <center>
+                    <div class="col-md-12">
+                        <h2>Enjoy <strong>Our Best Sellers</strong></h2>
+                    </div>
+                    
+                    <p>Check out our best selling products developed by a talented team of researchers, nutritionists <br>
+                        and doctors. Whether you hope to boost your metabolism, protect your vital organs or <br>
+                        renew your love life, Biomine is here to help!</p>
+                
+                    <img src="img/Eau-de-rose.jpg" alt="symbol" style="padding: 15px;">
+                </center>
+                <div class="col-4" style="border-style:solid; border-width:1px;">
+                    <center><img src="img/GoFree.PNG" alt="GoFree" style="height:170px; width: 360px; padding: 5px;"><br>
+                    <h1><strong>Go Free</strong></h1>
+                    <p>Go Free is a natural supplement for increasing joint flexibility, supporting joint mobility 
+                        and aiding age-related joint problems. Containing 1500mg of Glucosamine which helps...</p></center>
+                </div>
+                
+                <div class="col-md-3">
+                    
+                </div>
+                
+                <div class="col-md-3">
+                    
+                </div>
+                
+            </div>
+        </main>
     </body>
 </html>
