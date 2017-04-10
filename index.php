@@ -129,7 +129,7 @@
                     <!--Beginning of first row-->
                     <div class="w3-row-padding">
                         <div class="w3-third w3-container w3-margin-bottom">
-                            <a href='GoFree.php'><img src="/img/8_Products_Labels/GoFree.PNG" alt="Go Free" style="width:100%" class="w3-hover-opacity"></a>
+                            <a href='GoFree.php'><img src="/img/8_Products_Labels/Lablels_GoFree.PNG" alt="Go Free" style="width:100%" class="w3-hover-opacity"></a>
                           <div class="w3-container w3-white">
                               <center><h3><b>Go Free</b></h3>
                             <p>This proprietary blend of natural ingredients has been formulated to support joint health and flexibility. Containing 1500mg of Glucosamine
@@ -137,7 +137,7 @@
                           </div>
                         </div>
                         <div class="w3-third w3-container w3-margin-bottom">
-                          <a href='omega3.php'><img src="/img/8_Products_Labels/Omega3.PNG" alt="Omega3" style="width:100%" class="w3-hover-opacity"></a>
+                          <a href='omega3.php'><img src="/img/8_Products_Labels/Lablels_Omega3.PNG" alt="Omega3" style="width:100%" class="w3-hover-opacity"></a>
                           <div class="w3-container w3-white">
                             <center><h3><b>Omega-3 Fish Oil Blend</b></h3>
                             <p>Manufactured in a strict quality control environment our Omega 3 Fish Oil is free of all harmful contaminates. Using 100% pure sea-harvested pelagic 
@@ -146,7 +146,7 @@
                           </div>
                         </div>
                         <div class="w3-third w3-container">
-                          <a href='Liver_Support.php'><img src="/img/8_Products_Labels/LiverSupport.PNG" alt="Liver Support" style="width:100%" class="w3-hover-opacity"></a>
+                          <a href='Liver_Support.php'><img src="/img/8_Products_Labels/Lablels_LiverSupport.PNG" alt="Liver Support" style="width:100%" class="w3-hover-opacity"></a>
                           <div class="w3-container w3-white">
                               <center><h3><b>Liver Support</b></h3>
                             <p>Liver is the largest internal organ and functions to filter the blood, cleansing toxins, wastes and pathogens. It also plays a key role in cholesterol
@@ -160,7 +160,7 @@
                     <!--Beginning of second row-->
                     <div class="w3-row-padding">
                         <div class="w3-third w3-container w3-margin-bottom">
-                            <a href='vita_for_men.php'><img src="/img/8_Products_Labels/MenS.PNG" alt="Go Free" style="width:100%" class="w3-hover-opacity"></a>
+                            <a href='vita_for_men.php'><img src="/img/8_Products_Labels/Lablels_MenS.PNG" alt="Go Free" style="width:100%" class="w3-hover-opacity"></a>
                           <div class="w3-container w3-white">
                               <center><h3><b>Ultra Vita for Men</b></h3>
                             <p>This vitamin contains essential vitamins, antioxidants and minerals. It also contains Beta Carotene which supports heart health. In additions
@@ -168,7 +168,7 @@
                           </div>
                         </div>
                         <div class="w3-third w3-container w3-margin-bottom">
-                            <a href='vita_for_women.php'><img src="/img/8_Products_Labels/WomenS.PNG" alt="Omega3" style="width:100%" class="w3-hover-opacity"></a>
+                            <a href='vita_for_women.php'><img src="/img/8_Products_Labels/Lablels_WomenS.PNG" alt="Omega3" style="width:100%" class="w3-hover-opacity"></a>
                           <div class="w3-container w3-white">
                             <center><h3><b>Ultra Vita for Women</b></h3>
                             <p>In today's fast-paced world, many women do not get the daily recommended allowance of vitamins, minerals and other nutrients. Vox Nutrition 
@@ -177,7 +177,7 @@
                           </div>
                         </div>
                         <div class="w3-third w3-container">
-                            <a href='CoQ10.php'><img src="/img/8_Products_Labels/CoQ10.PNG" alt="Liver Support" style="width:100%" class="w3-hover-opacity"></a>
+                            <a href='CoQ10.php'><img src="/img/8_Products_Labels/Lablels_CoQ10.PNG" alt="Liver Support" style="width:100%" class="w3-hover-opacity"></a>
                           <div class="w3-container w3-white">
                               <center><h3><b>CoQ10</b></h3>
                             <p>Necessary for the function of cells, CoQ10 is a powerful antioxidant and vitamin-like compound. Supporting the protection of cell membranes,
@@ -191,7 +191,7 @@
                     <!--Beginning of third row-->
                     <div class="w3-row-padding">
                         <div class="w3-third w3-container w3-margin-bottom">
-                            <a href='Probiotic.php'><img src="/img/8_Products_Labels/Probiotic.PNG" alt="Go Free" style="width:100%" class="w3-hover-opacity"></a>
+                            <a href='Probiotic.php'><img src="/img/8_Products_Labels/Lablels_Probiotic.PNG" alt="Go Free" style="width:100%" class="w3-hover-opacity"></a>
                           <div class="w3-container w3-white">
                               <center><h3><b>Probiotic-40</b></h3>
                             <p>Probiotic 40 Billion is a blend of 4 strains (40 billion organisms) of Probiotic Bacteria. Our Probiotic supplement is designed to provide a 
@@ -200,7 +200,7 @@
                           </div>
                         </div>
                         <div class="w3-third w3-container w3-margin-bottom">
-                            <a href='Sleep_Formula.php'><img src="/img/8_Products_Labels/SleepFormula.PNG" alt="Omega3" style="width:100%" class="w3-hover-opacity"></a>
+                            <a href='Sleep_Formula.php'><img src="/img/8_Products_Labels/Lablels_SleepFormula.PNG" alt="Omega3" style="width:100%" class="w3-hover-opacity"></a>
                           <div class="w3-container w3-white">
                             <center><h3><b>Sleep Formula</b></h3>
                             <p>This proprietary blend of natural ingredients include  melatonin, camomile and natural vitamin B-6. This natural blend has been formulated to 
