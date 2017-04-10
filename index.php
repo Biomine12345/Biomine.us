@@ -123,7 +123,6 @@
                 </center>
             </div>
             
-            
             <section id="products">
                 <div class="container">
                     <!--Beginning of first row-->
