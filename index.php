@@ -245,7 +245,8 @@
                     <div class="col-md-12" style="padding:2%;">
                         <h2>Enjoy <strong>Our Best Sellers</strong></h2>
                     </div>
-                    
+                    <div>Testing page</div>
+                        
                     <p>Check out our best selling products developed by a talented team of researchers, nutritionists <br>
                         and doctors. Whether you hope to boost your metabolism, protect your vital organs or <br>
                         renew your love life, Biomine is here to help!</p>
