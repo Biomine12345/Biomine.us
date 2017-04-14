@@ -4,7 +4,7 @@
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         
         
@@ -55,12 +55,51 @@
                font-size: 36px;
                margin-left: 50px;
            }
+           
+           .dropdown {
+                position: relative;
+                display: inline-block;
+                }
 
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                padding: 12px 16px;
+                z-index: 1;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+           
+           
            @media screen and (max-height: 450px) {
              .sidenav {padding-top: 15px;}
              .sidenav a {font-size: 18px;}
              .align-mob {text-align: right;}
            }
+           
+           /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+            @media screen and (min-width: 1024px){
+            /*Style*/
+            }
+
+            /*###Tablet(medium)###*/
+            @media screen and (min-width : 768px) and (max-width : 1023px){
+            #img-sm-screen {height: 60%;}
+            }
+
+            /*### Smartphones (portrait and landscape)(small)### */
+            @media screen and (min-width : 0px) and (max-width : 767px){
+            #img-sm-screen {height: 50%; width: 100%;}
+            #font-sm {font-size: 10px;}
+            #font-md {font-size: 15px;}
+           
+            }
+            
         </style>
     
         <title>Biomine - Leading you to a healthier life!</title>
@@ -101,19 +140,38 @@
                 <div class="text-right" style="margin-top: 5%;">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>HOME</strong></a>
+                            <a class="nav-link" href="#"><strong>Home</strong></a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><strong>Products</strong></a>
                         </li>
                     
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>ABOUT US</strong></a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><b>About Us</b></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">About Us</a>
+                                <a class="dropdown-item" href="#">Terms of Service</a>
+                                <a class="dropdown-item" href="#">Privacy Policy</a>
+                                <a class="dropdown-item" href="#">Eligible Items for Purchase with Flexfacts Cards</a>
+                                <a class="dropdown-item" href="#">Disclaimer</a>
+                            </div>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>CONTACT</strong></a>
+                            <a class="nav-link" href="#"><strong>Contact</strong></a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><strong>TESTIMONIALS</strong></a>
+                            <a class="nav-link" href="#"><strong>Testimonials</strong></a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><b>My Account</b></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Login</a>
+                                <a class="dropdown-item" href="#">Register</a>
+                            </div>
                         </li>
                     </ul> 
                 </div>
@@ -125,10 +183,20 @@
         <div class="hidden-lg-up">
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Testimonials</a>
-                <a href="#">Contact</a>
+                <div class="dropdown">
+                    <a id="font-md" href="#">About Us</a>
+                    <div class="dropdown-content">
+                        <a id="font-sm" class="dropdown-item" href="#">About Us</a>
+                        <a id="font-sm" class="dropdown-item" href="#">Terms of Service</a>
+                        <a id="font-sm" class="dropdown-item" href="#">Privacy Policy</a>
+                        <a id="font-sm" class="dropdown-item" href="#">Eligible Items for Purchase with Flexfacts Cards</a>
+                        <a id="font-sm" class="dropdown-item" href="#">Disclaimer</a>
+                    </div>
+                </div>
+                    
+                
+                <a id="font-md" href="#">Testimonials</a>
+                <a id="font-md" href="#">Contact</a>
             </div>
         
             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#8801; open</span>
@@ -145,13 +213,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" src="img/capture.png" alt="First slide">
+                <img id="img-sm-screen" class="d-block img-fluid" src="img/capture.png" alt="First slide" >
                 <div class="carousel-caption d-none d-md-block">
                   
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/jumbo.png" alt="Second slide">
+                <img id="img-sm-screen" class="d-block img-fluid img-sm" src="img/jumbo.png" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
                   <h1>Welcome To Biomine!</h1>
                   <h3>The Company leading you to a healthy life!</h3>
@@ -182,7 +250,7 @@
                         and doctors. Whether you hope to boost your metabolism, protect your vital organs or <br>
                         renew your love life, Biomine is here to help!</p>
                 
-                    <img src="img/Eau-de-rose.jpg" alt="symbol" style="padding: 15px;">
+                    <img id="img-sm-screen" src="img/Eau-de-rose.jpg" alt="symbol" style="padding: 15px;">
                 </center>
             </div>
             
@@ -277,7 +345,7 @@
             </section>
             
             <div class="w3-display-container">
-                <img src="/img/pic.PNG" style="width:100%; height: 600px;">
+                <img id="img-sm-screen" src="/img/pic.PNG" style="width:100%; height: 600px;">
             </div>
             
         </main>
