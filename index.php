@@ -20,32 +20,80 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <style>
+            .sidenav {
+               height: 100%;
+               width: 0;
+               position: fixed;
+               z-index: 1;
+               top: 0;
+               left: 0;
+               background-color: #111;
+               overflow-x: hidden;
+               transition: 0.5s;
+               padding-top: 60px;
+           }
+
+           .sidenav a {
+               padding: 8px 8px 8px 32px;
+               text-decoration: none;
+               font-size: 25px;
+               color: #818181;
+               display: block;
+               transition: 0.3s;
+           }
+
+           .sidenav a:hover, .offcanvas a:focus{
+               color: #f1f1f1;
+           }
+
+           .sidenav .closebtn {
+               position: absolute;
+               top: 0;
+               right: 25px;
+               font-size: 36px;
+               margin-left: 50px;
+           }
+
+           @media screen and (max-height: 450px) {
+             .sidenav {padding-top: 15px;}
+             .sidenav a {font-size: 18px;}
+             .align-mob {text-align: right;}
+           }
+        </style>
     
         <title>Biomine - Leading you to a healthier life!</title>
     </head>
     
     <!--header-->
-    <header class="navbar bg-primary" style="color: white; height: 45px; font-size:15px;">
-        <div class="container">
-            <div class="row">
-                <p class="col-md">The Company leading you to a healthy life!</p> 
-                <div>
-                    <i class="material-icons align-bottom">&#xe55f;</i>41-60 Main Street, Suite 309B, Flushing, NY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </div>
-                <div>
-                    <i class="material-icons align-bottom">&#xe551;</i>(718) 353-8801&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </div>
-                <div>
-                    <i class="material-icons align-bottom">&#xe0be;</i>info@biomine.us
+    <div class="">
+        <header class="navbar bg-primary" style="color: white; height: 45px; font-size:15px;">
+            <div class="container">
+                <div class="row">
+                    <div class="hidden-sm-down">
+                        <p class="col-md">The Company leading you to a healthy life!</p> 
+                    </div>
+                    
+                    <div class="hidden-sm-down">
+                        <i class="material-icons align-bottom">&#xe55f;</i>41-60 Main Street, Suite 309B, Flushing, NY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div>
+                        <i class="material-icons align-bottom align-mob">&#xe551;</i>(718) 353-8801&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="hidden-sm-down">
+                        <i class="material-icons align-bottom">&#xe0be;</i>info@biomine.us
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>   
+        </header>   
+    </div>
+    
     <!--End of header-->
     
     <body>
-        <!--Nav bar-->
-        <div class="container">
+        <!--Nav bar on large screen-->
+        <div class="container hidden-sm-down">
             <div class="row">
                 <div class="col-md">
                     <img src="img/Biomne_logo.png" alt="Biomine" style="padding: 15px;">
@@ -71,7 +119,22 @@
                 </div>
             </div>
         </div>
-        <!--End of Navbar-->    
+        <!--End of Navbar-->   
+        
+        <!--Beginning of small screen nav-->
+        <div class="hidden-lg-up">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Contact</a>
+            </div>
+        
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#8801; open</span>
+        </div>   
+        <!--End of nav-->
+        
         
         <!--Carousel-->
         <div class="bd-example">
@@ -281,5 +344,15 @@
         </div>
         </div>
         </footer>
+        
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
     </body>
 </html>
